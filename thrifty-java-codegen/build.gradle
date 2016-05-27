@@ -26,6 +26,7 @@ dependencies {
     compile project(":thrifty-compiler-plugins")
     compile libraries.okio
     compile libraries.javaPoet
+    compile libraries.autovalue
 
     compile 'joda-time:joda-time:2.9.1'
 
